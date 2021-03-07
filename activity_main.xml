@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    >
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/imgnCoV"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/ncov"/>
+
+    <TextView
+        android:id="@+id/tvCV1"
+        android:layout_width="wrap_content"
+        android:layout_height="90dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textSize="16dp"
+        android:text="Tổ chức Y tế Thế giới (WHO) cho biết tên gọi chính thức của bệnh viêm đường hô hấp cấp do chủng mới của vi-rút corona (nCoV) là Covid 19."
+        />
+    <TextView
+
+        android:id="@+id/tv5k"
+        android:layout_below="@+id/tvCV1"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:textSize="16dp"
+        android:text="Bộ y tế đề nghị mỗi người dân Việt Nam thực hiện tốt thông điệp 5K: "
+        />
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:id="@+id/imgKhauTrang"
+        android:layout_margin="5dp"
+        android:layout_below="@+id/tv5k"
+        android:src="@drawable/ktr"/>
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:id="@+id/tvKhauTrang"
+        android:text="Khẩu trang"
+        android:textSize="16dp"
+        android:layout_marginTop="10dp"
+        android:layout_centerVertical="true"
+        android:textStyle="italic"
+        android:layout_below="@+id/tv5k"
+        android:layout_toRightOf="@+id/imgKhauTrang"/>
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:id="@+id/imgKhuKhuan"
+        android:layout_margin="5dp"
+        android:layout_below="@+id/imgKhauTrang"
+        android:src="@drawable/kk"/>
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:id="@+id/tvKhuKhuan"
+        android:text="Khử khuẩn"
+        android:textSize="16dp"
+        android:layout_marginTop="10dp"
+        android:layout_centerVertical="true"
+        android:textStyle="italic"
+        android:layout_below="@+id/tvKhauTrang"
+        android:layout_toRightOf="@+id/imgKhuKhuan"/>
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:id="@+id/imgKhoangCach"
+        android:layout_margin="5dp"
+        android:layout_below="@+id/imgKhuKhuan"
+        android:src="@drawable/kc"/>
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:id="@+id/tvKhoangCach"
+        android:text="Khoảng cách"
+        android:textSize="16dp"
+        android:layout_marginTop="10dp"
+        android:layout_centerVertical="true"
+        android:textStyle="italic"
+        android:layout_below="@+id/tvKhuKhuan"
+        android:layout_toRightOf="@+id/imgKhoangCach"/>
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:id="@+id/imgKhongTuTap"
+        android:layout_margin="5dp"
+        android:layout_below="@+id/imgKhoangCach"
+        android:src="@drawable/ktt"/>
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:id="@+id/tvKhongTuTap"
+        android:text="Không tụ tập"
+        android:textSize="16dp"
+        android:layout_marginTop="10dp"
+        android:layout_centerVertical="true"
+        android:textStyle="italic"
+        android:layout_below="@+id/tvKhoangCach"
+        android:layout_toRightOf="@+id/imgKhongTuTap"/>
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:id="@+id/imgKhaiBaoYTe"
+        android:layout_margin="5dp"
+        android:layout_below="@+id/imgKhongTuTap"
+        android:src="@drawable/khaibaoyte"/>
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:id="@+id/tvKhaiBaoYTe"
+        android:text="Khai báo y tế"
+        android:textSize="16dp"
+        android:layout_marginTop="10dp"
+        android:layout_centerVertical="true"
+        android:textStyle="italic"
+        android:layout_below="@+id/tvKhongTuTap"
+        android:layout_toRightOf="@+id/imgKhaiBaoYTe"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvNext"
+        android:layout_below="@+id/tvKhaiBaoYTe"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="Bấm Next để cập nhật tình hình covid ở các nước trên thế giới."/>
+    <Button
+        android:id="@+id/BtnNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="600dp"
+        android:text="Next" />
+
+</RelativeLayout>
