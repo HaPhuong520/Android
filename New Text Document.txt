@@ -1,0 +1,68 @@
+
+1. java android
+2. java
+3. javascript
+4. python
+
+
+huyết áp cao
+
+intro
+
+Bạn đã chán việc nghĩ xem 'Hôm nay ăn gì??
+
+- Hãy đến với "Cook with me", bạn sẽ có những trải nghiệm mới trong chính căn bếp của mình.
+- Chúng tôi sẽ đem đến cho bạn công thức cho những món ngon đầy đủ dinh dưỡng.
+- Bên cạnh đó, chúng tôi còn gửi đến bạn những 'lời khuyên' và chế độ ăn phù hợp với tình trạng sức khỏe, cơ thể của bạn .
+
+- Đầu tiên là màn hình đăng nhập, đăng ký.
+- Trước tiên, chúng ta đăng ký 1 tài khoản với đầy đủ thông tin được yêu cầu. "Cook with me" chỉ cho phép tên đăng nhập là duy nhất, nếu trùng sẽ thông báo yêu cầu bạn nhập lại.
++ bên cạnh đó yêu cầu về mk là đủ từ 8 kí tự trở lên bao gồm ít nhất 1 hoa 1 thg 1 số và 1 đặc biệt.
+- Màn hình tiếp theo là màn hình chính của ứng dựng. Bao gồm phần cài đặt và 4 sự lựa chọn.
+- Khi kích vào biểu tượng  cài đặt sẽ hiện ra 2 lựa chọn :xem thông tin cá nhân và đăng xuất. 
++ Khi kích vào thông tin tài khoản, sẽ hiện lên tên đăng nhập, họ tên và 2 list các món đã thêm hoặc đã thích của tài khoản.
++ Lựa chọn đăng xuất sẽ đưa b về màn hình đăng nhập, đăng ký. 
+- Phần hướng dẫn sẽ đưa ra thông tin về hướng dẫn sử dụng ứng dụng và và chế độ ăn theo tháp dinh dưỡng.
+- Trong phần chế độ ăn sẽ được chia thành 4 nhóm người.
++ Trẻ e sẽ đc chia thành 2 giai đoạn độ tuổi của trẻ(trẻ sơ sinh và trẻ từ 2-15t). Ở đây "Cook with me" sẽ đưa ra những lưu ý để mẹ có sự lựa chọn tốt nhất cho trẻ giúp trẻ phát triển  toàn diện.
++ Về phần người trưởng thành sẽ có những nguyên tắc dựa trên khuyến cáo của Hội đồng nâng cao sức khỏe như tăng cường bổ sung chất xơ.
++ Người già là nhóm ng cần đc quan tâm nhiều hơn trong chế độ ăn uống sinh hoạt vì hệ tiêu hóa của họ đã kém hơn.
++ cuối cùng là nhóm ng có tiền sử mắc bệnh. Đây là danh sách các bệnh thường gặp ở người  Việt Nam  như:huyết áp cao,huyết áp thấp,bệnh gout,bệnh tim mạch ..... Khi kích vào tên 1 bệnh bất kì rồi nhấn kiểm tra chúng tôi sẽ đưa ra cho bạn lời khuyên về món ăn bạn nên ăn và những món ăn hạn chế để tránh tình trạng bệnh phát triển nặng thêm
+-trong phần công thức món ăn,chúng tôi cung cấp cho bạn 1 danh sách các món ăn có trên hệ thống,bạn có thể xem bất kì 1 món nào,kích vào sẽ hiện lên hình ảnh,tên,nguyên liệu,chất dinh dưỡng và cách chế biến của món ăn đó
++khi bạn kích vào biểu tượng kính lúp trên góc phải màn hình,nhập vào món ăn bạn cần tìm,ví dụ như tôi đang nhập flan,sẽ hiện lên 2 món bánh  flan Trứng dữa và bánh flan trà xanh
++khi bạn muốn chia sẻ món ăn đến với mọi người,bạn hãy kích vào biểu tượng dấu cộng bên dưới góc phải màn hình nhập thông tin và chọn ảnh rồi kích vào nút lên sóng,nếu server cho phép bạn thêm món thì bạn sẽ nhận được thông báo "Thêm món thành công",ngược lại hệ thống sẽ báo "Lỗi rồi"
+-cuối cùng là phần tháp dinh dưỡng,ở đây chúng tôi sẽ cho phép bạn kiểm tra chỉ sô BMI với cân nặng và chiều cao bạn nhập vào
++nếu bạn thuộc nhóm người béo,khi bạn kích vào xem tháp dinh dưỡng,chúng tôi sẽ cung cấp cho bạn 1 tháp dinh dưỡng để có thân hình thon gọn hơn
++ngược lại nếu thuộc nhóm người gầy,sẽ được cung cấp 1 tháp để bạn có thân hình đầy đặn và khỏe mạnh hơn
++nếu bạn thuộc nhóm người bình thường ,chúng tôi sẽ lấy tuổi của bạn xem bạn là trẻ em hay là người trưởng thành để cung cấp
+-Trên đây là những tính năng và giao diện của "Cook with me", rất mong nhận được sự ủng hộ  và sự đóng góp của mọi người
+ 
+
+- Chúc các bạn sớm tìm được căn bếp cho riêng mình-tìm được người muốn cùng nhau 'Thu ăn măng trúc, đông ăn giá'.
+- Hẹn gặp lại mọi người trong những bản cập nhật sau này.
+
+
+
+Cook with me là nơi cho phép người dùng tìm kiếm và chia sẻ những món ăn ngon
+
+
+
+
+
+
+
+
+
+
+
+hàu nướng phô mai
+
+- ngL: hàu, trứng gà, phô mai bào sợi, sữa tươi
+
+- chất dd: chất đạm + chất béo
+
+- Rửa hàu sạch sẽ.
+- Luộc sơ trong 1-2 phút.
+- Đổ sữa tươi lên bếp đun nhỏ lửa.
+- Sau đó cho bơ, lòng đỏ trứng, phô mai vào nấu thành hỗ hợp đặc sệt.
+- Trải lớp sốt lên hàu cùng 1 chút pho mai bào sợi rồi nướng ở nhiệt độ 180 độ trong 8- 10 phút.
